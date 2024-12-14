@@ -32,7 +32,7 @@ Certifique-se de que você tem o **Java 17** ou superior, **MySQL**, e **Maven**
 
 Clone este repositório para o seu computador:
 
-```bash
+bash
 git clone https://github.com/srjoaovitorsouzas/produto-api.git
 
 ### 3. Configurar o Banco de Dados
@@ -100,12 +100,12 @@ Descrição : Produto exclusivo.
 Exemplo de cURL:
 bater
 
-Copiar código
+### Copiar código
 curl -X DELETE http://localhost:8080/api/produtos/1
 Instruções para Testes
 Você pode usar o Postman ou cURL para testar os endpoints da API. Veja os exemplos de cURL acima para testar as funcionalidades diretamente no terminal.
 
-### Dependências do Projeto
+## Dependências do Projeto
 Spring Web
 Spring Data JPA 
 Driver MySQL 
